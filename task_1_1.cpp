@@ -29,7 +29,7 @@ uint64_t readNumber();
 
 uint64_t getSequenceNum(uint64_t number);
 
-int main() {
+int main_1_1() {
     std::cout << getSequenceNum(readNumber());
     return 0;
 }

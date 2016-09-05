@@ -1,4 +1,6 @@
 
+#include <cstdio>
+
 char test_numbers[][50] = {
         "10 1 2 3 1 2 3 1 1 1 1", "4 7",
         "+10 1 2 3 1 2 3 1 1 1 1", "4 7",
@@ -34,10 +36,13 @@ char test_numbers[][50] = {
         "3 1 2 -2.70-0000E-2", "2 1",
 };
 
-int main() {
+void get_result(char string[50]);
+
+int main_1_2() {
     return 0;
 }
 
+#define MAXLEN 50
 void test() {
     char t[][MAXLEN] = {
             "10 1 2 3 1 2 3 1 1 1 1", "4 7",
@@ -78,4 +83,8 @@ void test() {
         printf("%-7s :  %s\n", t[i + 1], t[i]);
         get_result(t[i]);
     }
+}
+
+void get_result(char string[50]) {
+
 }
