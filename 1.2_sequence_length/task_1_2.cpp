@@ -48,7 +48,7 @@ std::string getResult(std::string input);
 #define SEQUENCE_POSITION 0
 #define SEQUENCE_LENGTH 1
 
-int main_1_2() {
+int main() {
     try {
         std::cout << getResult(getInputStream());
     }
